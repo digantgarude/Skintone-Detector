@@ -1,3 +1,5 @@
+# I've left some code in comments so that it can be easier if one wants to test and see output at various points. To make things simpler just remove the commented code !
+
 import face_detect
 import kMeansImgPy
 import cv2
@@ -18,9 +20,11 @@ while True:
     print("Green Component : "+str(colorsList[1]))
     print("Blue Component : "+str(colorsList[2]))
 
+    # Allot the actual skinTone to a certain shade
     allotedSkinToneVal = allotSkinTone.allotSkin(colorsList)
     print("alloted skin tone : ")
     print(allotedSkinToneVal)
+
     # Algorithm stop code.
     stopQ = input("Stop ? ( y || n ) ")
     if stopQ == 'y':

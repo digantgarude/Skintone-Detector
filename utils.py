@@ -1,3 +1,5 @@
+# I've left some code in comments so that it can be easier if one wants to test and see output at various points. To make things simpler just remove the commented code !
+
 # import the necessary packages
 import numpy as np
 import cv2

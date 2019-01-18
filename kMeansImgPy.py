@@ -1,3 +1,5 @@
+# I've left some code in comments so that it can be easier if one wants to test and see output at various points. To make things simpler just remove the commented code !
+
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 import utils
@@ -10,7 +12,7 @@ def kMeansImage(img):
     image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
     nC = 3              # No. of Clusters
 
-    # ========= DON'T REMOVE ! ======================================
+    # ========= (Can be used to test later)! ======================================
     # show image
     # You can comment the graph if you want only RGB values
     plt.figure()
@@ -66,6 +68,7 @@ def kMeansImage(img):
     #Labels of each point
     # clt.labels_
 
+    # ========= (Can be used to test later)! ======================================
     # ========= For reference ! ======================================
     # show our color bart
     # You can comment the graph if you want only RGB values

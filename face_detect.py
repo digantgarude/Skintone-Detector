@@ -1,3 +1,5 @@
+# I've left some code in comments so that it can be easier if one wants to test and see output at various points. To make things simpler just remove the commented code !
+
 def detect_face(img):
     import cv2
     # camera = cv2.VideoCapture(0)
@@ -34,6 +36,7 @@ def detect_face(img):
     # Draw rect around faces
     for(x,y,w,h) in faces:
         cv2.rectangle(image, (x,y),(x+w,y+h),(255,255,255),0)
+
     # x = faces[1][0]
     # y = faces[1][1]
     # w = faces[1][2]
