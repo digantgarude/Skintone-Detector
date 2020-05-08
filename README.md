@@ -9,7 +9,14 @@
 # Process : 
 
 ```
-Image => Detect face => Extract Face => Pass to K means Clustering algorithm => Get the cluster with max members => Denote that as actual shade => Subtract the received skintone from selected values of skin tone shade => Allot the mskin tone with min subtracted value as shade.
+=> Take Image 
+=> Detect face 
+=> Extract Face 
+=> Pass to K means Clustering algorithm 
+=> Get the cluster with max members 
+=> Denote that as actual shade 
+=> Subtract the received skintone from selected values of skin tone shade 
+=> Allot the skin tone with min subtracted value as shade.
 ```
 
 ## Installation
